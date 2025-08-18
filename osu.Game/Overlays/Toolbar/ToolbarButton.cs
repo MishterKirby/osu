@@ -247,13 +247,7 @@ namespace osu.Game.Overlays.Toolbar
                 new Box
                 {
                     RelativeSizeAxes = Axes.Both,
-                    Colour = OsuColour.Gray(30)
-                },
-                new Triangles
-                {
-                    RelativeSizeAxes = Axes.Both,
-                    ColourLight = OsuColour.Gray(40),
-                    ColourDark = OsuColour.Gray(20),
+                    Colour = OsuColour.Gray(0.1f)
                 },
             };
         }
